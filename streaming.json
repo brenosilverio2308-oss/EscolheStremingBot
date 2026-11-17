@@ -1,0 +1,128 @@
+{
+  "_aviso": "ARQUIVO DE DADOS EDITÁVEL. Para atualizar: confira os preços nas páginas oficiais, altere os valores e troque 'verificado_em' (AAAA-MM-DD) e 'fonte' da plataforma. Use null quando a informação não for confirmada: o bot mostrará 'a confirmar'. O campo 'perfil' (0 a 3) é avaliação EDITORIAL do projeto, não dado oficial.",
+  "plataformas": [
+    {
+      "id": "netflix",
+      "nome": "Netflix",
+      "tipo": "variedade",
+      "verificado_em": "2026-11-04",
+      "fonte": "Páginas oficiais, consultadas pelo Lance! em 04/11/2026 (lance.com.br/lance-indica/comparativo-melhores-streamings.html); reajuste de out/2026 noticiado pelo Tecnoblog",
+      "planos": [
+        {"nome": "Padrão com anúncios", "preco": 25.90, "preco_anual": null, "telas": 2, "qualidade": "Full HD", "anuncios": true},
+        {"nome": "Padrão", "preco": 51.90, "preco_anual": null, "telas": 2, "qualidade": "Full HD", "anuncios": false},
+        {"nome": "Premium", "preco": 71.90, "preco_anual": null, "telas": 4, "qualidade": "4K HDR", "anuncios": false}
+      ],
+      "conteudo": "Séries, filmes, documentários, animes e infantil, com produções de vários países.",
+      "esportes": "Não transmite futebol ao vivo; tem documentários e séries sobre esporte.",
+      "exclusivos": "Stranger Things, Round 6, Bridgerton",
+      "perfil": {"filmes": 3, "series": 3, "animes": 3, "documentarios": 2, "esportes": 0, "infantil": 2},
+      "vantagens": ["Maior variedade de séries e filmes entre as plataformas comparadas", "Produções de muitos países", "Sem fidelidade"],
+      "desvantagens": ["Não tem plano anual", "Preços subiram até 23,9% em out/2026", "4K e 4 telas só no Premium", "Não transmite futebol ao vivo"]
+    },
+    {
+      "id": "prime",
+      "nome": "Prime Video",
+      "tipo": "variedade",
+      "verificado_em": "2026-11-04",
+      "fonte": "Páginas oficiais, consultadas pelo Lance! em 04/11/2026; anúncios e valor sem anúncios noticiados pelo Tecnoblog (2025)",
+      "planos": [
+        {"nome": "Com anúncios", "preco": 19.90, "preco_anual": 166.80, "telas": 3, "qualidade": null, "anuncios": true},
+        {"nome": "Sem anúncios (+ R$ 10)", "preco": 29.90, "preco_anual": null, "telas": 3, "qualidade": null, "anuncios": false}
+      ],
+      "conteudo": "Filmes e séries, originais Prime, esportes e canais extras pagos à parte dentro do app.",
+      "esportes": "1 jogo exclusivo por rodada do Brasileirão, Copa do Brasil, NBA e CazéTV (Bundesliga e Ligue 1).",
+      "exclusivos": "The Boys, Fallout, Reacher",
+      "perfil": {"filmes": 2, "series": 2, "animes": 1, "documentarios": 1, "esportes": 2, "infantil": 1},
+      "vantagens": ["Menor preço de entrada entre as plataformas comparadas", "Assinatura Amazon Prime inclui frete grátis em itens elegíveis e Amazon Music", "Plano anual de R$ 166,80"],
+      "desvantagens": ["Exibe anúncios; removê-los custa R$ 10 a mais por mês", "Brasileirão completo exige outra assinatura (só 1 jogo por rodada)"]
+    },
+    {
+      "id": "disney",
+      "nome": "Disney+",
+      "tipo": "variedade",
+      "verificado_em": "2026-11-04",
+      "fonte": "Páginas oficiais, consultadas pelo Lance! em 04/11/2026",
+      "planos": [
+        {"nome": "Padrão com anúncios", "preco": 29.90, "preco_anual": null, "telas": 2, "qualidade": "Full HD", "anuncios": true},
+        {"nome": "Padrão", "preco": 49.90, "preco_anual": 407.88, "telas": 2, "qualidade": "Full HD", "anuncios": false},
+        {"nome": "Premium", "preco": 69.90, "preco_anual": 587.88, "telas": 4, "qualidade": "4K HDR", "anuncios": false}
+      ],
+      "conteudo": "Disney, Pixar, Marvel, Star Wars, National Geographic e produções do antigo Star.",
+      "esportes": "ESPN só no plano Premium: Libertadores, Sul-Americana e Premier League.",
+      "exclusivos": "Andor, Demolidor: Renascido, O Urso",
+      "perfil": {"filmes": 3, "series": 2, "animes": 1, "documentarios": 2, "esportes": 3, "infantil": 3},
+      "vantagens": ["Grande acervo de Disney, Pixar, Marvel e Star Wars", "Futebol sul-americano e europeu no Premium", "Muito conteúdo infantil e familiar"],
+      "desvantagens": ["O plano com anúncios não tem plano anual nem downloads", "Para ver futebol é preciso o plano mais caro (Premium)"]
+    },
+    {
+      "id": "hbomax",
+      "nome": "HBO Max (antigo Max)",
+      "tipo": "especializada",
+      "verificado_em": "2026-11-04",
+      "fonte": "Páginas oficiais, consultadas pelo Lance! em 04/11/2026",
+      "planos": [
+        {"nome": "Básico com anúncios", "preco": 29.90, "preco_anual": 274.80, "telas": 2, "qualidade": "Full HD", "anuncios": true},
+        {"nome": "Standard", "preco": 44.90, "preco_anual": 418.80, "telas": 2, "qualidade": "Full HD", "anuncios": false},
+        {"nome": "Platinum", "preco": 55.90, "preco_anual": 538.80, "telas": 4, "qualidade": "4K", "anuncios": false}
+      ],
+      "conteudo": "Produções da HBO, filmes da Warner e títulos da DC.",
+      "esportes": "Todos os jogos da Champions League 2026/27 (transmissões ao vivo podem ter anúncios em qualquer plano).",
+      "exclusivos": "A Casa do Dragão, The Last of Us, Pinguim",
+      "perfil": {"filmes": 2, "series": 3, "animes": 1, "documentarios": 2, "esportes": 2, "infantil": 1},
+      "vantagens": ["Séries da HBO e filmes da Warner/DC", "Única com a Champions League completa entre as comparadas"],
+      "desvantagens": ["4K e 4 telas só no Platinum", "Plano Básico exibe cerca de 4 minutos de anúncios por hora"]
+    },
+    {
+      "id": "globoplay",
+      "nome": "Globoplay",
+      "tipo": "especializada",
+      "verificado_em": "2026-11-04",
+      "fonte": "Páginas oficiais, consultadas pelo Lance! em 04/11/2026",
+      "planos": [
+        {"nome": "Com anúncios", "preco": 29.90, "preco_anual": 238.80, "telas": 2, "qualidade": "Full HD", "anuncios": true},
+        {"nome": "Premium", "preco": 39.90, "preco_anual": 298.80, "telas": 5, "qualidade": "4K", "anuncios": false},
+        {"nome": "Premium + Premiere", "preco": 78.90, "preco_anual": 478.80, "telas": null, "qualidade": null, "anuncios": null}
+      ],
+      "conteudo": "Novelas, jornalismo, realities e produções nacionais.",
+      "esportes": "SporTV em todos os planos pagos; Brasileirão (9 de 10 jogos por rodada) e Copa do Brasil só com Premiere.",
+      "exclusivos": "Big Brother Brasil, Verônika com K, novelas",
+      "perfil": {"filmes": 1, "series": 2, "animes": 0, "documentarios": 2, "esportes": 3, "infantil": 1},
+      "vantagens": ["Melhor opção para novelas e conteúdo nacional", "SporTV incluído nos planos pagos", "Até 5 telas no Premium"],
+      "desvantagens": ["Futebol completo exige o combo com Premiere (R$ 78,90)", "Planos com anúncios e Premium não incluem os jogos do Premiere"]
+    },
+    {
+      "id": "appletv",
+      "nome": "Apple TV (antigo Apple TV+)",
+      "tipo": "especializada",
+      "verificado_em": "2026-09-02",
+      "fonte": "Reajuste de 28/08/2026 noticiado pela BIT Magazine, que cita a página brasileira da Apple (bitmag.com.br)",
+      "planos": [
+        {"nome": "Mensal", "preco": 34.90, "preco_anual": 279.00, "telas": null, "qualidade": null, "anuncios": false}
+      ],
+      "conteudo": "Foco em produções originais, muitas premiadas.",
+      "esportes": "Sem informação confirmada sobre esportes no Brasil.",
+      "exclusivos": "Ted Lasso",
+      "perfil": {"filmes": 1, "series": 3, "animes": 0, "documentarios": 1, "esportes": 0, "infantil": 1},
+      "vantagens": ["Plano único, simples de escolher", "Produções originais de alta qualidade", "Período de teste gratuito de 7 dias (conforme a página da Apple)"],
+      "desvantagens": ["Preço subiu 17% em ago/2026", "Catálogo concentrado em produções próprias"]
+    },
+    {
+      "id": "paramount",
+      "nome": "Paramount+",
+      "tipo": "especializada",
+      "verificado_em": "2026-11-04",
+      "fonte": "Páginas oficiais, consultadas pelo Lance! em 04/11/2026",
+      "planos": [
+        {"nome": "Padrão", "preco": 34.90, "preco_anual": 309.90, "telas": 2, "qualidade": "Full HD", "anuncios": false},
+        {"nome": "Premium", "preco": 44.90, "preco_anual": 399.90, "telas": 4, "qualidade": "4K", "anuncios": false}
+      ],
+      "conteudo": "Paramount, CBS, Nickelodeon e MTV, com franquias e realities.",
+      "esportes": "Libertadores (sem a final) e Sul-Americana; UFC com exclusividade.",
+      "exclusivos": "Star Trek, Missão: Impossível, Tulsa King",
+      "perfil": {"filmes": 2, "series": 2, "animes": 0, "documentarios": 1, "esportes": 3, "infantil": 2},
+      "vantagens": ["Opção mais barata para Libertadores e UFC", "Franquias como Star Trek e Missão: Impossível", "Nickelodeon para o público infantil"],
+      "desvantagens": ["Plano de entrada é o mais caro entre as comparadas", "4K só no Premium", "Não tem plano com anúncios"]
+    }
+  ]
+}
+
